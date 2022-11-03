@@ -143,7 +143,7 @@
 
 @media only screen and (min-width: 769px) {
     .wappper {
-        min-height: calc(100vh - 86px);
+        min-height: calc(100vh - 80px);
         overflow: hidden;
     }
 }
