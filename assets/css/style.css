@@ -6103,6 +6103,14 @@ footer p {
   list-style: none;
 }
 
+.playstore-xs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  margin-bottom: 15px;
+}
+
 .playstore li {
   float: left;
   width: auto;
