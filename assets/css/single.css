@@ -53,6 +53,9 @@
     box-sizing: border-box;
     margin: 12px 6px 0;
 }
+/* .img-responsive{
+    width: 100%;
+} */
 
 
 .img-gallery .inside ul .image:last-child {
