@@ -1,7 +1,3 @@
-.wappper{
-    min-height: 900px;
-    overflow: hidden;
-}
 .single-page .page-header {
     box-sizing: border-box;
     background-color: #0daa9f;
@@ -43,12 +39,14 @@
 
 .single-page .img-gallery .inside ul {
     list-style: none;
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
 }
-.img-gallery .inside ul{
+
+.img-gallery .inside ul {
     margin: 0 -6px;
 }
+
 .single-page .img-gallery .inside ul .image {
     background: #f7f7f7;
     overflow: hidden;
@@ -56,9 +54,11 @@
     box-sizing: border-box;
     margin: 12px 6px 0;
 }
-.single-page .img-gallery .inside ul .image img{
+
+.single-page .img-gallery .inside ul .image img {
     border-radius: 5px;
 }
+
 /* .img-responsive{
     width: 100%;
 } */
@@ -80,9 +80,11 @@
     list-style: none;
 }
 
-.single-page .product-info li img {
-    margin-right: 10px;
-
+.single-page .product-info .ic {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 5px;
 }
 
 .single-page .update-icon {
@@ -132,8 +134,16 @@
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
-    .single-page .img-feature-container .img-feature{
+
+    .single-page .img-feature-container .img-feature {
         margin-right: 0px;
         margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .wappper {
+        min-height: 850px;
+        overflow: hidden;
     }
 }
